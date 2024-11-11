@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <div id="login">
+        <div class="caixa">
+            <h2>Cadastre-se no melhor sistema de gestão financeira</h2>
+            <form id="registrationForm">
+                <div class="nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="name" name="nome" placeholder="Digite o seu nome" required>
+                </div>
+                
+                <div class="email">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+                
+                <div class="senha">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="password" name="senha" placeholder="Senha" required>
+                </div>
+                
+                <div class="confirmar-senha">
+                    <label for="confirmar-senha">Confirme a Senha</label>
+                    <input type="password" id="confirmPassword" name="confirmar_senha" placeholder="Confirme sua senha" required>
+                </div>
+
+                <input type="submit" value="Cadastrar">
+            </form>
+
+            <p> Já possui uma conta? <a href="login.html">Entre por aqui</a></p>
+        </div>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
